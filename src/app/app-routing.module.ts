@@ -5,11 +5,11 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   //definicion de rutas y a qué apunta, ej un componente dentro de x modulo
-  {
+  /* {
     path: '', //raiz
     redirectTo: 'homecomp', //redirecciona por defecto a..
     pathMatch: 'full'
-  },
+  }, */
   {
     path: 'material-demo',
     component: MaterialDemoComponent,
